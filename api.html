@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>currency convertor</title>
+    <link rel="stylesheet" href="api.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="container">
+        <h1>CURRENCY EXCHANGER</h1>
+        <form action="" method="post" class="form">
+            <p>Enter the amount</p>
+            <div class="input1">
+                <input type="text" class="input" ></div>
+            <div class="choices">
+                <div class="from">
+                    <img src="https://flagsapi.com/US/flat/64.png" alt="">
+                    <select name="countries" id="countrie1" class="countries">
+                        <option value="USD" selected>US</option>
+                    </select>
+                </div>
+                <div class="excghangetag"><i class="fa-solid fa-arrow-right-arrow-left"></i></div>
+                <div class="to">
+                    <img src="https://flagsapi.com/IN/flat/64.png" alt="">
+                    <select name="countries" id="countrie2" class="countries">
+                        <option value="INR" selected>IN</option>
+                    </select>
+                </div>
+            </div>
+            <div class="statement">1 dollar is equal to 83 inr</div>
+            <!-- <button type="submit">click me!</button> -->
+        </form>
+    </div>
+    <script src="api.js"></script>
+    <script src="countries.js"></script>
+</body>
+</html>

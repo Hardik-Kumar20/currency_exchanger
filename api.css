@@ -1,0 +1,99 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: translateY(15rem);
+    gap: 20rem;
+}
+.container{
+    border-radius: 20px;
+    border: 2px solid rgb(102, 100, 100);
+    width: 40rem;
+    height: 30rem;
+    box-shadow: 2px 0px 2px 2px ;
+}
+.container h1{
+    margin-left:8rem;
+    margin-top: 1rem;
+    margin-bottom: 3rem
+}
+
+.input1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+form p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-left: -50px; */
+    font-size: 25px;
+}
+form input:focus{
+    /* background-image: linear-gradient(to right , rgb(209, 208, 208) , rgb(210, 178, 178)); */
+    /* color: white; */
+     font-size: 1.1rem;
+    transition: all 0.2s ease-in;
+}
+
+.choices{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    gap: 3.6rem;
+    margin-bottom: 3rem;
+}
+.choices select{
+    width:8rem;
+    height: 2rem;
+    transform: translateY(-1.7rem);
+    border-radius: 2rem;
+    border: 2px solid black;
+}
+.choices img{
+    width: 5rem;
+    border-radius: 2rem;
+    
+}
+
+.statement{
+    /* transform: translateX(10rem); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+button{
+transform: translateX(15rem);
+width: 8rem;
+height: 2rem;
+margin-top: 2rem;
+cursor: pointer;
+transition: all 0.3s ease-in-out;
+font-size: 1.3rem;
+}
+button:hover{
+    background-image: linear-gradient(to right , grey , black);
+    color: white;
+    
+}
+.container i{
+    font-size: 1.5rem;
+}
+.container:hover{
+    background-color: black;
+    color: white;
+    transition:all 0.2s ease-in-out;
+}
+select{
+    cursor: pointer;
+}
